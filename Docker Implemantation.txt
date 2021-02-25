@@ -1,0 +1,11 @@
+1).Write the docker file
+
+2),Building the docker image using following command:-
+    docker build -t money_api
+
+3).Running the money authenticator app using the following command:-
+   docker run -p 8000:8000 money_api
+
+Note :- You can see all your images with "docker images" 
+whereas you can see your running containers with "docker ps"
+(and you can see all containers with "docker ps -a").

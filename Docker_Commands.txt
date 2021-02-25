@@ -1,0 +1,18 @@
+1. Write the docker file
+
+2. Building the docker image
+
+3.Running our money authenticator app
+ 
+
+         Building the docker image 
+         docker build -t money_api
+
+
+see the dockers 
+
+
+
+
+running the dockers
+docker run -p 8000:8000 money_api
